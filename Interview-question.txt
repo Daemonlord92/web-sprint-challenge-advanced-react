@@ -1,0 +1,20 @@
+Explain how to build stateful class components.
+
+Adding local state to a class instead of props, add a class constructor and super, pass props to the base constructor, remove excess state from component so you just render something like this!
+
+Describe the different phases of the component lifecycle.
+Initialization: this stage the developer defines what is going be in the state from the beginning, Mounting is the phase of react that comes after the initialization phase, it happens when the component is place inside the Vitural DOM container and render on the webpage, after that is the Updation phase which happens after event listeiners occur wiether its just the time elaspe or a click on an element, last is unmounting and in the phase is where the component is dettach from the DOM!
+
+
+Demonstrate an understanding of class component lifecycle methods.
+
+the life cycle method is mouting updateing unmountin. you render and re redner in mounting and updateing because the original render dispalys while updateing takes a update from user that causes it to re render
+
+Define stateful logic.
+
+Stateful logic is any code that uses state, but in the case of hooks I would define it as a behaviour created with the use of one or more hooks
+
+Describe how to test a React component with React Testing Library.
+
+Well it is very simialiar to Rspec for rails, it allows you to create test data that is injected into your apps allowing you to test for any potential bugs that could surface up.
+
